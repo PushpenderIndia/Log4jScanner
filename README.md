@@ -106,6 +106,9 @@ $ log4jscanner -m httpx_subdomains.txt
 * [Documentation](https://github.com/PushpenderIndia/Log4jScanner)
 * [PyPI](https://pypi.org/project/Log4jScanner/)
 
+## License
+
+This project is licensed under the GNU License (see the `LICENSE` file for details).
 
 
 
