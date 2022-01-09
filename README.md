@@ -39,7 +39,6 @@ THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS
     - GET Based Parameter                       + With Malicious Headers 
     - POST Based Paramter with JSON Body        + With Malicious Headers
     - POST Based Paramater with Post Parameters + With Malicious Headers
-
 - [x] Log4jScanner Also tries to Fuzz Possible POST Parameters such as:
     - Feel FREE to Add/Remove any POST Parameter
 ```
@@ -63,7 +62,9 @@ $ pip3 install Log4jScanner
 ## Usage 
 
 * Type `log4jscanner -h` for help menu
+
 ![](/img/Help.PNG)
+
 * Only `--url-list` or `--url` are mandatory parameter/flags.
 * You can also import this module in your code
 
@@ -79,6 +80,24 @@ vuln_url_list = test.start()
 for url in vuln_url_list:
     print(url)
 ```
+
+## Usage Example
+```
+# Basic Recon (Passive Subdomain Enumeration)
+$ subfinder -d bugcrowd.com -nC -silent -o subdomains.txt && cat subdomains.txt | httpx -nc -silent > httpx_subdomains.txt
+
+$ log4jscanner -m httpx_subdomains.txt 
+```
+
+## Screenshots:
+
+#### Help Menu
+![](/img/Help.PNG)
+
+#### Single URL - Basic Scan
+![](/img/BasicScan.PNG)
+
+
 
 
 
