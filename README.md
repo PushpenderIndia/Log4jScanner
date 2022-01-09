@@ -102,8 +102,10 @@ $ log4jscanner -m httpx_subdomains.txt
 ![](https://github.com/PushpenderIndia/Log4jScanner/blob/main/img/BasicScan.PNG?raw=True)
 
 ## Link:
-- [x] Documentation Link: ![Click Here](https://github.com/PushpenderIndia/Log4jScanner)
-- [x] PyPi Link: ![Click Here](https://pypi.org/project/Log4jScanner)
+
+* [Documentation](https://github.com/PushpenderIndia/Log4jScanner)
+* [PyPI](https://pypi.org/project/Log4jScanner/)
+
 
 
 
