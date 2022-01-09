@@ -1,15 +1,37 @@
-# Log4jScanner
+<h1 align="center">Log4jScanner</h1>
+<p align="center">
+    <a href="https://python.org">
+    <img src="https://img.shields.io/badge/Python-3.9-green.svg">
+  </a>
+  <a href="https://github.com/PushpenderIndia/Log4jScanner/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/License-GNUv3-lightgrey.svg">
+  </a>
+  <a href="https://github.com/PushpenderIndia/Log4jScanner/releases">
+    <img src="https://img.shields.io/badge/Release-1.0-blue.svg">
+  </a>
+    <a href="https://github.com/PushpenderIndia/Log4jScanner">
+    <img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-brightgreen.svg">
+  </a>
+</p>
+
 Log4jScanner is a Log4j Related CVEs Scanner, Designed to Help Penetration Testers to Perform Black Box Testing on given subdomains.
 
+## Disclaimer
+<p align="center">
+  :computer: This project was created only for good purposes and personal use.
+</p>
+
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS SOFTWARE AT YOUR OWN RISK. THE USE IS COMPLETE RESPONSIBILITY OF THE END-USER. THE DEVELOPERS ASSUME NO LIABILITY AND ARE NOT RESPONSIBLE FOR ANY MISUSE OR DAMAGE CAUSED BY THIS PROGRAM.
+
 ## Features
-* Fast & MultiThreaded
-* Scan for Log4j RCE (CVE-2021-44228, CVE-2021-45046) 
-* Over 30 Obfuscated Log4j Payload
-* Mainly Designed for Mass Scale Bug Bounty
-* Available Scan Type: Basic Scan & Full Scan
+- [x] Fast & MultiThreaded
+- [x] Scan for Log4j RCE (CVE-2021-44228, CVE-2021-45046) 
+- [x] Over 30 Obfuscated Log4j Payload
+- [x] Mainly Designed for Mass Scale Bug Bounty
+- [x] Available Scan Type: Basic Scan & Full Scan
     - In Basic Scan, Only 1 Basic Log4Shell Payload is used for testing web app
     - In Full Scan, All Available Log4Shell Payloads are used
-* Log4jScanner Fuzz all the potential endpoints such as 
+- [x] Log4jScanner Fuzz all the potential endpoints such as 
     - HTTP Headers 
     - GET Based Parameter                       + Without Malicious Headers
     - POST Based Paramter with JSON Body        + Without Malicious Headers
@@ -18,11 +40,14 @@ Log4jScanner is a Log4j Related CVEs Scanner, Designed to Help Penetration Teste
     - POST Based Paramter with JSON Body        + With Malicious Headers
     - POST Based Paramater with Post Parameters + With Malicious Headers
 
-* Log4jScanner Also tries to Fuzz Possible POST Parameters such as:
+- [x] Log4jScanner Also tries to Fuzz Possible POST Parameters such as:
     - Feel FREE to Add/Remove any POST Parameter
 ```
 ["username", "user", "email", "email_address", "password", "id", "action", "page", "q", "submit", "token", "data", "order", "lang", "search", "redirect", "country", "hidden"]
 ```
+
+## Prerequisite
+- [x] Python 3.X
 
 ## Installation
 * Install Python3 on your system, As Python comes preinstalled in Linux & MacOS, Simply run this pip command
@@ -38,6 +63,7 @@ $ pip3 install Log4jScanner
 ## Usage 
 
 * Type `log4jscanner -h` for help menu
+![](/img/Help.PNG)
 * Only `--url-list` or `--url` are mandatory parameter/flags.
 * You can also import this module in your code
 
