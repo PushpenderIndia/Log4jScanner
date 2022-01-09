@@ -67,7 +67,7 @@ $ pip3 install Log4jScanner
 
 * Type `log4jscanner -h` for help menu
 
-![](/img/Help.PNG)
+![](https://github.com/PushpenderIndia/Log4jScanner/blob/main/img/Help.PNG?raw=True)
 
 * Only `--url-list` or `--url` are mandatory parameter/flags.
 * You can also import this module in your code
@@ -96,10 +96,15 @@ $ log4jscanner -m httpx_subdomains.txt
 ## Screenshots:
 
 #### Help Menu
-![](/img/Help.PNG)
+![](https://github.com/PushpenderIndia/Log4jScanner/blob/main/img/Help.PNG?raw=True)
 
 #### Single URL - Basic Scan
-![](/img/BasicScan.PNG)
+![](https://github.com/PushpenderIndia/Log4jScanner/blob/main/img/BasicScan.PNG?raw=True)
+
+## Link:
+- [x] Documentation Link: ![Click Here](https://github.com/PushpenderIndia/Log4jScanner)
+- [x] PyPi Link: ![Click Here](https://pypi.org/project/Log4jScanner)
+
 
 
 
