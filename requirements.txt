@@ -1,0 +1,4 @@
+requests
+PyCryptodome
+colorama
+
