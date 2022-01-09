@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/License-GNUv3-lightgrey.svg">
   </a>
   <a href="https://github.com/PushpenderIndia/Log4jScanner/releases">
-    <img src="https://img.shields.io/badge/Release-1.0-blue.svg">
+    <img src="https://img.shields.io/badge/Release-1.1-blue.svg">
   </a>
     <a href="https://github.com/PushpenderIndia/Log4jScanner">
     <img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-brightgreen.svg">

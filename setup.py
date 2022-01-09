@@ -21,7 +21,7 @@ with io.open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name="Log4jScanner",
-    version="1.0",
+    version="1.1",
     description="Log4j CVE Vulnerability Scanner - Python Module",
     long_description=desc,
     long_description_content_type='text/markdown',

@@ -324,7 +324,7 @@ def main():
     def get_arguments():
         banner = pyfiglet.figlet_format("            Log4jScanner")
         print(banner+"\n")
-        parser = argparse.ArgumentParser(description=f'{Fore.RED}Log4jScanner v1.0 {Fore.YELLOW}[Author: {Fore.GREEN}Pushpender Singh{Fore.YELLOW}] [{Fore.GREEN}https://github.com/PushpenderIndia{Fore.YELLOW}]')
+        parser = argparse.ArgumentParser(description=f'{Fore.RED}Log4jScanner v1.1 {Fore.YELLOW}[Author: {Fore.GREEN}Pushpender Singh{Fore.YELLOW}] [{Fore.GREEN}https://github.com/PushpenderIndia{Fore.YELLOW}]')
         parser._optionals.title = f"{Fore.GREEN}Optional Arguments{Fore.YELLOW}"
         parser.add_argument("-u", "--url", dest="url",  help=f"{Fore.GREEN}Scan Single URL for Log4j ({Fore.WHITE}CVE-2021-44228{Fore.GREEN}, {Fore.WHITE}CVE-2021-45046{Fore.GREEN}){Fore.YELLOW}")
         parser.add_argument("-m", "--url-list", dest="url_list",  help=f"{Fore.GREEN}Scan Multiple URLs, Give Full Path of File Containing URLs{Fore.YELLOW}")        
