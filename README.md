@@ -14,9 +14,8 @@
   </a>
 </p>
 
-
 <p align="center">
-  <img src="https://github.com/PushpenderIndia/Log4jScanner/blob/master/img/Logo.PNG" alt="Log4jScanner Logo">
+  <img src="https://github.com/PushpenderIndia/Log4jScanner/blob/e1bd7c7f115c81c0301ec81ca4d6be0b5d91d500/img/Logo.PNG" alt="Log4jScanner Logo">
 </p>     
 
 Log4jScanner is a Log4j Related CVEs Scanner, Designed to Help Penetration Testers to Perform Black Box Testing on given subdomains.
