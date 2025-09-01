@@ -3,6 +3,10 @@
     <a href="https://python.org">
     <img src="https://img.shields.io/badge/Python-3.9-green.svg">
   </a>
+  <a href="https://pypi.org/project/Log4jScanner/"><img alt="pypi" src="https://img.shields.io/pypi/v/Log4jScanner.svg"></a>
+  <a href="https://pepy.tech/project/Log4jScanner?versions=1*&versions=2*&versions=3*"><img alt="Downloads" src="https://pepy.tech/badge/Log4jScanner"></a>
+  <a href="https://pepy.tech/project/Log4jScanner?versions=1*&versions=2*&versions=3*"><img alt="Downloads" src="https://pepy.tech/badge/Log4jScanner/month"></a>
+  <a href="https://github.com/PushpenderIndia/Log4jScanner/commits/main"><img alt="GitHub lastest commit" src="https://img.shields.io/github/last-commit/PushpenderIndia/Log4jScanner?color=blue&style=flat-square"></a>
   <a href="https://github.com/PushpenderIndia/Log4jScanner/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-GNUv3-lightgrey.svg">
   </a>
